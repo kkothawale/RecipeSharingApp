@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Recipe Name",
+        "rating": 5,
+        "reviews_num": 16,
+        "image": "image",
+        "time": "00",
+        "calories": "00",
+        "ingredients_count": 0,
+        "ingredients": [
+            "ingredient 1",
+            "ingredient 2",
+            "ingredient 3",
+            "ingredient 4",
+            "ingredient 5",
+            "ingredient 6"
+        ],
+        "procedure": [
+            "step 1",
+            "step 2",
+            "step 3",
+            "step 4"
+        ],
+        "tags": [
+            "tag 1",
+            "tag 2"
+        ],
+        "notes": "notes",
+        "reviews": [
+            {
+                "name": "user 1",
+                "rating": 5,
+                "review": "review 1"
+            },
+            {
+                "name": "user 2",
+                "rating": 4,
+                "review": "review 2"
+            }
+        ],
+        "youMayAlsoLike": [
+            {
+                "name": "recipe 1",
+                "image": "image 1",
+                "author": "author 1",
+                "rating": 5
+            },
+            {
+                "name": "recipe 2",
+                "image": "image 2",
+                "author": "author 2",
+                "rating": 4
+            }
+        ]
+    }
+]
