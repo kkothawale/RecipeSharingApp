@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-8=%ii%ny9v&w3%djk_^%a=^(%seh2)am=z^e@_*asqdu^le&-v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['18.224.22.164']
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'recipe_app',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -48,7 +49,14 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 ]
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+    "http://recipe-sharing-app.s3-website.us-east-2.amazonaws.com"
+]
+
 
 ROOT_URLCONF = 'recipe_project.urls'
 
