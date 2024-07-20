@@ -1,54 +1,267 @@
 [
     {
-        "name": "Recipe Name",
-        "rating": 5,
-        "reviews_num": 16,
-        "image": "image",
-        "time": "00",
-        "calories": "00",
-        "ingredients_count": 0,
+        "id": 1,
+        "name": "Chicken Curry",
+        "rating": 4.5,
+        "reviews_count": 128,
+        "image": "https://www.simplyrecipes.com/thmb/5A4zR8y4upw3gT7hA2KhxZUp5zk=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Chicken-Curry-LEAD-2-d8cdb30350f94c728171a6cd9a16ea23.jpg",
+        "time": "45 mins",
+        "calories": "350 Kcal",
+        "ingredients_count": 12,
         "ingredients": [
-            "ingredient 1",
-            "ingredient 2",
-            "ingredient 3",
-            "ingredient 4",
-            "ingredient 5",
-            "ingredient 6"
+            "chicken",
+            "onion",
+            "tomato",
+            "garlic",
+            "ginger",
+            "yogurt",
+            "curry powder",
+            "cumin",
+            "coriander",
+            "turmeric",
+            "chili powder",
+            "salt"
         ],
-        "procedure": [
-            "step 1",
-            "step 2",
-            "step 3",
-            "step 4"
-        ],
-        "tags": [
-            "tag 1",
-            "tag 2"
-        ],
-        "notes": "notes",
-        "reviews": [
+        "nutrition": [
             {
-                "name": "user 1",
-                "rating": 5,
-                "review": "review 1"
+                "name": "CALORIES",
+                "icon": "🔥",
+                "quantity": "350 Kcal"
             },
             {
-                "name": "user 2",
+                "name": "FAT",
+                "icon": "🧈",
+                "quantity": "20 g"
+            },
+            {
+                "name": "PROTEIN",
+                "icon": "🍗",
+                "quantity": "30 g"
+            },
+            {
+                "name": "CARBS",
+                "icon": "🍞",
+                "quantity": "10 g"
+            },
+            {
+                "name": "SUGAR",
+                "icon": "🍬",
+                "quantity": "5 g"
+            },
+            {
+                "name": "SODIUM",
+                "icon": "🧂",
+                "quantity": "800 mg"
+            }
+        ],
+        "procedure": [
+            "Heat oil and sauté onions, garlic, and ginger.",
+            "Add chicken and cook until browned.",
+            "Stir in tomatoes, yogurt, and spices.",
+            "Simmer until chicken is cooked through."
+        ],
+        "tags": [
+            "Indian",
+            "Spicy"
+        ],
+        "notes": "Serve with rice or naan bread.",
+        "reviews": [
+            {
+                "name": "Alice",
+                "rating": 5,
+                "review": "Delicious and easy to make!"
+            },
+            {
+                "name": "Bob",
                 "rating": 4,
-                "review": "review 2"
+                "review": "Great flavor, but a bit too spicy for me."
             }
         ],
         "youMayAlsoLike": [
             {
-                "name": "recipe 1",
-                "image": "image 1",
-                "author": "author 1",
+                "name": "Butter Chicken",
+                "author": "Chef Raj",
                 "rating": 5
             },
             {
-                "name": "recipe 2",
-                "image": "image 2",
-                "author": "author 2",
+                "name": "Lamb Curry",
+                "author": "Chef Ali",
+                "rating": 4
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Pad Thai",
+        "rating": 4.7,
+        "reviews_count": 152,
+        "image": "https://www.simplyrecipes.com/thmb/RlZl7x8Idg3yA6uU1gA2Hy12dHI=/2000x1125/filters:fill(auto,1)/Simply-Recipes-Pad-Thai-LEAD-2-a1fa7d03ecf54a80a0874d0e3d01c41a.jpg",
+        "time": "30 mins",
+        "calories": "400 Kcal",
+        "ingredients_count": 10,
+        "ingredients": [
+            "rice noodles",
+            "shrimp",
+            "tofu",
+            "bean sprouts",
+            "green onions",
+            "eggs",
+            "peanuts",
+            "lime",
+            "fish sauce",
+            "tamarind paste"
+        ],
+        "nutrition": [
+            {
+                "name": "CALORIES",
+                "icon": "🔥",
+                "quantity": "400 Kcal"
+            },
+            {
+                "name": "FAT",
+                "icon": "🧈",
+                "quantity": "15 g"
+            },
+            {
+                "name": "PROTEIN",
+                "icon": "🍗",
+                "quantity": "20 g"
+            },
+            {
+                "name": "CARBS",
+                "icon": "🍞",
+                "quantity": "50 g"
+            },
+            {
+                "name": "SUGAR",
+                "icon": "🍬",
+                "quantity": "8 g"
+            },
+            {
+                "name": "SODIUM",
+                "icon": "🧂",
+                "quantity": "900 mg"
+            }
+        ],
+        "procedure": [
+            "Soak noodles in hot water until soft.",
+            "Stir-fry shrimp, tofu, and green onions.",
+            "Add noodles, bean sprouts, and sauce.",
+            "Push to one side, scramble eggs, and mix in."
+        ],
+        "tags": [
+            "Thai",
+            "Noodles"
+        ],
+        "notes": "Garnish with peanuts and lime wedges.",
+        "reviews": [
+            {
+                "name": "Charlie",
+                "rating": 5,
+                "review": "Best Pad Thai I’ve ever had!"
+            },
+            {
+                "name": "Diana",
+                "rating": 4,
+                "review": "Really good, but needed more sauce."
+            }
+        ],
+        "youMayAlsoLike": [
+            {
+                "name": "Thai Green Curry",
+                "author": "Chef Somchai",
+                "rating": 5
+            },
+            {
+                "name": "Tom Yum Soup",
+                "author": "Chef Arun",
+                "rating": 4
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Sushi",
+        "rating": 4.8,
+        "reviews_count": 85,
+        "image": "https://www.simplyrecipes.com/thmb/MQExgI6sNBDIXc7vs0_dntL60XE=/2000x1333/filters:fill(auto,1)/Simply-Recipes-Sushi-Roll-LEAD-05-c0e6c9b10f144d44a792b8c01ee8768f.jpg",
+        "time": "60 mins",
+        "calories": "300 Kcal",
+        "ingredients_count": 8,
+        "ingredients": [
+            "sushi rice",
+            "nori",
+            "salmon",
+            "avocado",
+            "cucumber",
+            "soy sauce",
+            "wasabi",
+            "pickled ginger"
+        ],
+        "nutrition": [
+            {
+                "name": "CALORIES",
+                "icon": "🔥",
+                "quantity": "300 Kcal"
+            },
+            {
+                "name": "FAT",
+                "icon": "🧈",
+                "quantity": "12 g"
+            },
+            {
+                "name": "PROTEIN",
+                "icon": "🍗",
+                "quantity": "15 g"
+            },
+            {
+                "name": "CARBS",
+                "icon": "🍞",
+                "quantity": "35 g"
+            },
+            {
+                "name": "SUGAR",
+                "icon": "🍬",
+                "quantity": "3 g"
+            },
+            {
+                "name": "SODIUM",
+                "icon": "🧂",
+                "quantity": "600 mg"
+            }
+        ],
+        "procedure": [
+            "Cook and season sushi rice.",
+            "Place nori on mat, add rice and fillings.",
+            "Roll tightly and slice into pieces.",
+            "Serve with soy sauce, wasabi, and ginger."
+        ],
+        "tags": [
+            "Japanese",
+            "Seafood"
+        ],
+        "notes": "Experiment with different fillings!",
+        "reviews": [
+            {
+                "name": "Eve",
+                "rating": 5,
+                "review": "Amazing sushi, just like at a restaurant!"
+            },
+            {
+                "name": "Frank",
+                "rating": 4,
+                "review": "Tasty but a bit tricky to roll."
+            }
+        ],
+        "youMayAlsoLike": [
+            {
+                "name": "Ramen",
+                "author": "Chef Kenji",
+                "rating": 5
+            },
+            {
+                "name": "Tempura",
+                "author": "Chef Yuki",
                 "rating": 4
             }
         ]
