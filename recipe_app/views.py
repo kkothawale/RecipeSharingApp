@@ -5,7 +5,8 @@ import os
 import json
 
 def load_recipes_from_file():
-    with open('../recipe_project/recipes.json') as f:
+    json_path = os.path.join(os.path.dirname(__file__), '../recipe_project/recipes.json')
+    with open(json_path, 'r') as f:
         return json.load(f)
 
 # class RecipeView(View):
